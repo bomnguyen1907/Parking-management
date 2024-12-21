@@ -146,7 +146,7 @@ public class HeThongQuanLyBaiXe {
         System.out.print("Xe vao hay ra? (vao/ra): ");
         String trangThai = scanner.nextLine().toLowerCase();
 
-        if (trangThai.equals("Vao")) {
+        if (trangThai.equals("vao")) {
             System.out.print("Nhap vi tri do: ");
             int viTriDo = scanner.nextInt();
             quanLyXe.capNhatTrangThaiXe(bienSo, true, viTriDo);
